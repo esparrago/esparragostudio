@@ -204,8 +204,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #FF498D;
+    background-color: #FF498D;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -214,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #FF498D;
 }
 
 .navbar-default .nav li a {
@@ -255,9 +255,9 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         font-size: 2em;
-        -webkit-transition: all .5s;
-        -moz-transition: all .5s;
-        transition: all .5s;
+        -webkit-transition: padding .5s;
+        -moz-transition: padding .5s;
+        transition: padding .5s;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -613,6 +613,31 @@ section h3.section-subheading {
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .navbar-brand>img {
+        height: 21px;
+        width: auto;
+    }
+
+    a.navbar-brand {
+
+        background-color: whitesmoke;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .navbar-brand:hover {
+        
+        background-color: whitesmoke !important;
     }
 }
 
