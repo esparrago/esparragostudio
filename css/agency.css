@@ -27,7 +27,7 @@ body {
 }
 
 .text-primary {
-    color: #FF498D;
+    color: #FD73A7;
 }
 
 p {
@@ -48,14 +48,14 @@ a.active {
 }
 
 a {
-    color: #FF498D;
+    color: #FD73A7;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #FF498D;
+    color: #FD73A7;
 }
 
 h1,
@@ -82,12 +82,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #FF498D;
+    border-color: #FD73A7;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #FF498D;
+    background-color: #FD73A7;
 }
 
 .btn-primary:hover,
@@ -97,7 +97,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #FF498D;
+    background-color: #FD73A7;
 }
 
 .btn-primary:active,
@@ -121,12 +121,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #FF498D;
-    background-color: #FF498D;
+    border-color: #FD73A7;
+    background-color: #FD73A7;
 }
 
 .btn-primary .badge {
-    color: #FF498D;
+    color: #FD73A7;
     background-color: #fff;
 }
 
@@ -154,7 +154,7 @@ fieldset[disabled] .btn-primary.active {
     transition: width all ease-in-out 0.3s;
     border-color: transparent;
     color: #fff;
-    background-color: #FF498D;
+    background-color: #FD73A7;
 }
 
 .btn-xl:active,
@@ -178,12 +178,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #FF498D;
-    background-color: #FF498D;
+    border-color: #FD73A7;
+    background-color: #FD73A7;
 }
 
 .btn-xl .badge {
-    color: #FF498D;
+    color: #FD73A7;
     background-color: #fff;
 }
 
@@ -194,14 +194,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #FF498D;
+    color: #FD73A7;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #FF498D;
+    color: #FD73A7;
 }
 
 .navbar-default .navbar-collapse {
@@ -209,8 +209,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #FF498D;
-    background-color: #FF498D;
+    border-color: #FD73A7;
+    background-color: transparent;
+    border:none;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -219,7 +220,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #FF498D;
+    background-color: transparent;
 }
 
 .navbar-default .nav li a , .navbar-default .nav li a:focus{
@@ -229,17 +230,18 @@ fieldset[disabled] .btn-xl.active {
     letter-spacing: 1px;
     color: #fff;
     border: 1px transparent solid;
+    text-align: center;
      -moz-transition: all ease-in-out 0.3s; /* firefox */
     -webkit-transition: all ease-in-out 0.3s; /* Safari */
     transition: width all ease-in-out 0.3s;
 }
 
 .navbar-default .nav li a:hover {
-     -moz-transition: all ease-in-out 0.3s; /* firefox */
+    -moz-transition: all ease-in-out 0.3s; /* firefox */
     -webkit-transition: all ease-in-out 0.3s; /* Safari */
     transition: width all ease-in-out 0.3s;
     outline: 0;
-    color: #FF498D;
+    color: white;
     border: 1px whitesmoke solid;
 
 }
@@ -247,20 +249,24 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #FF498D;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
     border-radius: 0;
     color: #fff;
-    background-color: #FF498D;
+    background-color: #FD73A7;
     border: 1px solid transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
+    border-radius: 0;
     color: #fff;
-    background-color: #FF498D;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+
 }
 
 
@@ -281,7 +287,7 @@ section#services {
 .border-circle {
     
     border-radius: 50%;
-    border: 4px solid #FF498D ;
+    border: 2px solid #FD73A7 ;
 
 }
 
@@ -309,8 +315,33 @@ section#services {
 }
 
 
+.gradient_esparrago {
+
+    background: rgba(251,66,158,1);
+    /* Old Browsers */background: -moz-radial-gradient(center, ellipse cover, rgba(251,66,158,1) 0%, rgba(253,161,111,1) 100%);
+     /* FF3.6+ */background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(251,66,158,1)), color-stop(100%, rgba(253,161,111,1)));
+    /* Chrome, Safari4+ */background: -webkit-radial-gradient(center, ellipse cover, rgba(251,66,158,1) 0%, rgba(253,161,111,1) 100%);
+     /* Chrome10+,Safari5.1+ */background: -o-radial-gradient(center, ellipse cover, rgba(251,66,158,1) 0%, rgba(253,161,111,1) 100%);
+     /* Opera 11.10+ */background: -ms-radial-gradient(center, ellipse cover, rgba(251,66,158,1) 0%, rgba(253,161,111,1) 100%);
+     /* IE 10+ */background: radial-gradient(ellipse at center, rgba(251,66,158,1) 0%, rgba(253,161,111,1) 100%);
+    /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb429e', endColorstr='#fda16f', GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+}
+
+
 
 /*----------------------------- Media queries -------------------------*/
+
+
+@media(max-width:992px) {
+    .navbar-brand>img {
+        
+        height: 30px;
+        width: auto;
+        margin-top: 10px;
+    }
+    
+}
 
 
 @media(min-width:768px) {
@@ -348,7 +379,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/bg_1.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -364,19 +395,20 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
+    font-style: normal;
     line-height: 22px;
+    font-weight: 100 !important;
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 10px !important;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 40px;
 }
 
 @media(min-width:768px) {
@@ -387,9 +419,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -576,7 +606,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #FF498D;
+    background-color: #FD73A7;
 }
 
 .timeline>li .timeline-image h4 {
@@ -686,11 +716,17 @@ section h3.section-subheading {
     }
 }
 
+
+
+
+  
+
 @media(max-width:768px) {
 
     .navbar-brand>img {
         height: 21px;
         width: auto;
+        margin-top: initial;
     }
 
     a.navbar-brand {
@@ -788,7 +824,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #FF498D;
+    border-color: #FD73A7;
     box-shadow: none;
 }
 
@@ -866,7 +902,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #FF498D;
+    background-color: #FD73A7;
 }
 
 .btn:focus,
@@ -898,7 +934,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }

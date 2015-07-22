@@ -25,6 +25,8 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+new WOW().init();
+
 $(document).ready(function() {
   $(".rippler").rippler({
     effectClass      :  'rippler-effect'
@@ -33,3 +35,4 @@ $(document).ready(function() {
     ,duration        :  400
   });
 });
+
